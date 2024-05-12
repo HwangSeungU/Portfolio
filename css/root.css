@@ -1,0 +1,18 @@
+:root {
+  /* color */
+  --blue--bolder: #3e51bd;
+  --gray500: #757575;
+  --white: #fff;
+
+  /* font-size */
+  --font--size--mega: 80px;
+  --font--size--large: 36px;
+  --font--size--medium: 24px;
+  --font--size--small: 18px;
+  --font--size--smaller: 14px;
+
+  /* max-width */
+  --maxWidth--desktop: 1000px;
+  --maxWidth--tablet: 628px;
+  --maxWidth--mobile: 600px;
+}

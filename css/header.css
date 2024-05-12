@@ -1,0 +1,38 @@
+header {
+  /* width: 100%; */
+  padding: 28px 54px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--blue--bolder);
+}
+
+nav > .bar {
+  display: flex;
+  gap: 20px;
+}
+
+.navi > h2 {
+  font-size: var(--font--size--large);
+  font-weight: 400;
+}
+
+.navi > .hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .navi {
+    gap: 10px;
+  }
+  .navi > .hamburger {
+    display: block;
+  }
+  .navi > ul {
+    display: none;
+  }
+}

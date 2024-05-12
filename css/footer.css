@@ -1,0 +1,28 @@
+footer {
+  margin-top: 112px;
+  width: 100%;
+}
+
+footer > iframe {
+  width: 100%;
+  height: 430px;
+}
+
+.foot--logo > p {
+  text-align: center;
+  padding: 32px;
+  font-size: var(--font--size--medium);
+  color: var(--blue--bolder);
+}
+
+@media screen and (max-width: 1124px) {
+  footer > iframe {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 684px) {
+  footer > iframe {
+    height: 374px;
+  }
+}

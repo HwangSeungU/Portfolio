@@ -1,0 +1,57 @@
+.promotion {
+  width: 100%;
+  max-width: var(--maxWidth--desktop);
+  margin: 0 auto;
+  margin-top: 150px;
+  display: flex;
+
+  gap: 20px;
+}
+
+.promotion > .card {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card > .fa-solid {
+  font-size: var(--font--size--mega);
+  color: var(--blue--bolder);
+}
+
+.card > h4 {
+  font-size: var(--font--size--medium);
+  color: var(--blue--bolder);
+}
+
+.card > h6 {
+  font-size: var(--font--size--smaller);
+  text-align: center;
+}
+
+.driver {
+  margin-top: 64px;
+  width: 80%;
+  color: var(--gray500);
+}
+
+@media screen and (max-width: 1126px) {
+  .promotion {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .promotion > .card {
+    width: 100%;
+  }
+
+  .driver {
+    width: 90%;
+  }
+}
